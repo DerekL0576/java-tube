@@ -158,7 +158,7 @@ public class Stream{
     }
 
     private String safeFileName(String s){
-        return s.replaceAll("[\"'#$%*,:;<>?\\\\^|~/]", " ");
+        return s.replaceAll("[\"#$%*,:;<>?\\\\^|~/]", " ");
     }
 
     private void checkFile(String filePath) throws IOException {
